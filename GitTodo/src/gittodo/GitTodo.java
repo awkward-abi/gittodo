@@ -13,7 +13,9 @@ public class GitTodo {
         
         System.out.print("Please enter name: ");
         String name = input.nextLine();
-        System.out.println("Welcome "+name);
+        System.out.println("Welcome "+name+"\nPlease enter your task for today");
+        String task = input.nextLine();
+        
     }
     
 }
