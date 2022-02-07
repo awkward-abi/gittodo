@@ -16,6 +16,7 @@ public class GitTodo {
         System.out.println("Welcome "+name+"\nPlease enter your task for today");
         String task = input.nextLine();
         
+        System.out.println("Hello Git");
     }
     
 }
